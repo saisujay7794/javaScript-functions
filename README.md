@@ -6,7 +6,7 @@
          This is a custom-built webpage without the use of any frameworks such as Bootstrap.
     </p>
 
-<img align="center" alt="potato" src="https://tenor.com/search/js-gifs">
+<img align="center" alt="potato" src="https://onepatch.com/wp-content/uploads/2022/03/JAVASCRIPT_CIRCLE_NEW.gif" width="200" height="auto">
     
    <h2 class="section-title">🌱Features</h2>
    
