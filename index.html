@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-2 Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="vote-header">
+                <img src="https://source.unsplash.com/1600x900/?ballot" class="card-img" alt="">
+            </div>
+            <div class="card-content">
+                <h2 class="tag1">VOTE ELIGIBILITY TEST</h2>
+                <input type="text" id="age" placeholder="Enter your age">
+                <button class="btn" onclick="eligibilityTOVote()">Submit</button>
+                <h4 id="accepted1"></h3>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <img src="https://source.unsplash.com/1600x900/?math-calculations" class="card-img" alt="">
+            </div>
+            <div class="card-content">
+                <h2 class="tag1">TABLE OF A NUMBER</h2>
+                <input type="text" id="table" placeholder="Enter any number">
+                <button class="btn" onclick="numberTable()">Submit</button>
+                <h4 id="accepted2"></h3>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <img src="https://source.unsplash.com/1600x900/?balancing-with-dollar-and-rupee" class="card-img" alt="">
+            </div>
+            <div class="card-content">
+                <h2 class="tag1">DOLLARS TO RUPEES</h2>
+                <input type="text" id="currency" placeholder="Enter amount in dollars">
+                <button class="btn" onclick="dollarToRupee()">Submit</button>
+                <h4 id="accepted3"></h3>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
